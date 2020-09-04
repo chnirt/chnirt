@@ -15,6 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+\*literal asterisks\*
 
 - [x] this is a complete item
 - [ ] this is an incomplete item
