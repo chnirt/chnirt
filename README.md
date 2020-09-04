@@ -25,3 +25,6 @@ supported
 - [x] list syntax required (any
 unordered or ordered list
 supported)
+
+### Learn more
+* https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
