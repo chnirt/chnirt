@@ -14,31 +14,36 @@ Senior Full Stack JavaScript Developer with 6+ years of experience building scal
 
 **Moorr – Lifestyle by Design**  
 [Website](https://www.moorr.com.au/) | [iOS](https://apps.apple.com/au/app/moorr-lifestyle-by-design/id1601360465) | [Android](https://play.google.com/store/apps/details?id=com.moorr.android)  
+- Role: Senior Mobile Developer in a team of 3
 - Architected and delivered React Native financial lifestyle app with 10K+ MAU.  
 - Built custom react-native-svg-charts with pinch & zoom and smooth animations.  
 - Integrated Firebase, OneSignal, Sentry; automated releases with CircleCI + Fastlane.  
 
 **Market Plus (MarketBasePlus Extension)**  
 [Website](https://www.marketbaseplus.com/) | [Chrome Extension](https://www.marketbaseplus.com/chrome-extensions/)  
+- Role: Frontend Team Leader in a team of 5
 - Backend with Keystone.js v6, Cube.js (analytics), and Stripe (payments).  
 - Frontend with React + Redux-Saga + Apollo Client, custom TailwindCSS components.  
 - Improved deployment pipeline with Vercel, reducing release time by 25%.  
 
 **GHomeHR**  
 [Website](https://ghomehr.groovetechnology.com)  
+- Role: Frontend Team Leader in a team of 5
 - Frontend Team Lead: built HR platform using Next.js + TailwindCSS + Zustand.  
 - Automated CI/CD with GitHub Actions, cutting deployment effort by 30%.  
 - Managed codebase handover and team mentoring.  
 
 **uWorkin**  
 [Website](https://www.uworkin.com/) | [iOS](https://apps.apple.com/us/app/uworkin-jobs-100-000-jobs/id533648804?ls=1) | [Android](https://play.google.com/store/apps/details?id=com.uworkin.android.uworkin)  
+- Role: Senior Mobile Developer in a team of 2
 - Maintained mobile codebase, implemented Facebook Login and Google reCAPTCHA v3.  
 - Delivered feature updates and bug fixes to improve authentication flow.  
 
 **Xsights.io**  
-[Website](https://xsights.io/) | [Android](https://play.google.com/store/apps/details?id=io.xsights.android.xlm&hl=en)  
-- Role: Mobile Team Lead.  
+[Website](https://xsights.io/) | [Xsights Livestock Management Android](https://play.google.com/store/apps/details?id=io.xsights.android.xlm&hl=en)  
+- Role: Mobile Team Leader in a team of 2
 - Designed React Native architecture with Redux Toolkit.  
+- Designed React Native architecture with Redux Toolkit and dynamic 2D layout generation for customizable maps.
 - Automated builds/releases with Fastlane.  
 - Delivered production-ready codebase and transferred to internal team for maintainance.  
 
@@ -47,6 +52,7 @@ Senior Full Stack JavaScript Developer with 6+ years of experience building scal
 ### Viet Money JSC – React Native Developer (Onsite)  
 *Ho Chi Minh | Mar 2021 – Apr 2021*  
 [Website](https://vietmoney.vn/) | [iOS](https://apps.apple.com/vn/app/vietmoney/id156773856) | [Android](https://play.google.com/store/apps/details?id=com.vietmoney)  
+- Role: Mid-level Mobile Developer in a team of 2
 - Integrated Momo & VNPay payments, Zalo login and QR code authentication.  
 - Designed UI for rewards feature inspired by GrabFood.  
 
@@ -55,6 +61,7 @@ Senior Full Stack JavaScript Developer with 6+ years of experience building scal
 ### WelinC JSC – ReactJS Developer (Freelance)  
 *Ho Chi Minh | Jan 2021*  
 [Website](http://welinc.vn/)  
+- Role: Mid-level Frontend Developer in a team of 2
 - Developed frontend using ReactJS, Redux, and Axios for API integration.  
 
 ---
@@ -63,6 +70,7 @@ Senior Full Stack JavaScript Developer with 6+ years of experience building scal
 *Ho Chi Minh | Jun 2020 – Jan 2021*  
 [UrbanOS iOS](https://apps.apple.com/vn/app/urbanos/id1535447090) | [Android](https://play.google.com/store/apps/details?id=com.urbanos.tenant)  
 [UrbanOS Staff iOS](https://apps.apple.com/vn/app/urbanos-for-staff/id1535414469) | [Android](https://play.google.com/store/apps/details?id=com.urbanos.staff)  
+- Role: Mid-level Mobile Developer in a team of 2
 - Built core mobile codebase following PO’s design, integrated third-party SDKs.  
 - Designed animations for enhanced UX.  
 - Developed custom hooks (useAuth, useSocket, useFirebase, etc.).  
