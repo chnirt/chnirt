@@ -1,0 +1,10 @@
+{
+  "name": "chnirt",
+  "private": true,
+  "scripts": {
+    "pdf": "md-to-pdf README.md --pdf-options '{\"format\":\"A4\",\"margin\":{\"top\":\"16mm\",\"right\":\"14mm\",\"bottom\":\"16mm\",\"left\":\"14mm\"}}'"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^5.2.4"
+  }
+}
