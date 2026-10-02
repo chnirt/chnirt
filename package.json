@@ -2,7 +2,11 @@
   "name": "chnirt",
   "private": true,
   "scripts": {
-    "pdf": "md-to-pdf README.md --pdf-options '{\"format\":\"A4\",\"margin\":{\"top\":\"16mm\",\"right\":\"14mm\",\"bottom\":\"16mm\",\"left\":\"14mm\"}}'"
+    "postinstall": "npx puppeteer browsers install chrome",
+    "pdf:setup": "npx puppeteer browsers install chrome",
+    "pdf:resume": "md-to-pdf README.md --pdf-options '{\"format\":\"A4\",\"margin\":{\"top\":\"16mm\",\"right\":\"14mm\",\"bottom\":\"16mm\",\"left\":\"14mm\"}}'",
+    "pdf:cover": "md-to-pdf COVER_LETTER.md --pdf-options '{\"format\":\"A4\",\"margin\":{\"top\":\"20mm\",\"right\":\"20mm\",\"bottom\":\"20mm\",\"left\":\"20mm\"}}'",
+    "pdf": "npm run pdf:resume && npm run pdf:cover"
   },
   "devDependencies": {
     "md-to-pdf": "^5.2.4"
