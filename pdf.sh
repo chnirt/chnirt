@@ -35,3 +35,8 @@ npx --yes md-to-pdf COVER_LETTER.md --pdf-options "$PDF_OPTS_COVER"
 echo "Created:"
 echo "  $(pwd)/README.pdf"
 echo "  $(pwd)/COVER_LETTER.pdf"
+
+if [[ -f scripts/build-site.js ]]; then
+  echo "Updating GitHub Pages site (docs/)..."
+  node scripts/build-site.js
+fi

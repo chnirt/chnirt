@@ -6,20 +6,23 @@ github.com/chnirt · linkedin.com/in/chnirt
 
 October 2, 2026
 
-[Hiring Manager Name]  
-[Title]  
-[Company Name]  
-[Company Address or Remote]
+Affinity Labs  
+Hiring Team  
+Remote (UK)
 
-Dear [Hiring Manager Name / Hiring Team]:
+Dear Affinity Labs Hiring Team:
 
-Writing to apply for the [Senior Full Stack / React Native Developer] role at [Company]. Six-plus years of shipping production web and mobile products — React Native since 2019 — with repeated ownership as Team Lead on selected engagements: architecture, mentoring, and production handoff.
+I am writing to apply for the Senior React Native Engineer role. I have six-plus years of experience shipping production web and mobile products, working in React Native since 2019, and I have often taken on Team Lead responsibilities: architecture, mentoring, and production handoff.
 
-At Groove Technology, architected and delivered Moorr, an Australian fintech lifestyle app now at 10K+ monthly active users, including custom charts and CircleCI / Fastlane release automation. Led React Native architecture for Xsights livestock management, including dynamic map layouts, and transferred a production-ready codebase to the internal team. On uWorkin, a marketplace with 100K+ listed jobs, improved authentication with Facebook Login and Google reCAPTCHA v3 while maintaining the app at scale. Beyond mobile, led frontend teams on Market Plus and GHomeHR (Next.js, React, Keystone.js, Cube.js), tightening CI/CD and cutting release or deployment effort by roughly 25–30%.
+At Groove Technology, I architected and delivered Moorr, an Australian fintech lifestyle app now at 10K+ monthly active users, with custom charts and CircleCI / Fastlane release automation. I used Reanimated and Skia to build charts and animated screen transitions, and Apollo Client for data fetching. I led React Native architecture for Xsights livestock management, including dynamic map layouts, and handed a production-ready codebase over to the internal team. On uWorkin, a marketplace with 100K+ listed jobs, I improved authentication with Facebook Login and Google reCAPTCHA v3 while keeping the app stable at scale.
 
-[Company]’s focus on [product / platform / mobile or full-stack problem] aligns with experience delivering reliable React Native and full-stack JavaScript systems under clear ownership. Eager to bring the same architectural discipline, mentoring habits, and production focus to your team.
+Outside of client work, I run a self-hosted Supabase (PostgreSQL) backend on my own VPS for an iOS app built with Firebase, which I am preparing for App Store release. It has given me hands-on practice with auth, database design, Docker deployment and server hardening.
 
-Thank you for your consideration. Glad to discuss how this background maps to [Role] at [Company].
+I have not yet built in-app subscription flows or used RevenueCat, but I am comfortable picking up new SDKs from the docs, and I would be glad to learn it on real products.
+
+What draws me to Affinity Labs is the chance to own the mobile layer of live products with real users, and to build shared infrastructure that several apps rely on. I work comfortably in remote, async teams where clear written communication matters, and I would take seriously the chance to help set patterns for future hires.
+
+Thank you for your time. I would be glad to share code samples or a demo.
 
 Sincerely,
 
