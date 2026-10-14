@@ -216,6 +216,12 @@ function buildOxfordResumeHtml(markdown) {
     body += `<p class="ox-paragraph">${mdInline(summaryParagraph)}</p></section>`;
   }
 
+  if (skills) {
+    body += sectionHeading("Skills");
+    body += parseSkills(skills);
+    body += "</section>";
+  }
+
   body += sectionHeading("Relevant Experience");
   body += parseExperienceBlock(experience);
   body += "</section>";
@@ -224,16 +230,16 @@ function buildOxfordResumeHtml(markdown) {
   body += parseEducation(education);
   body += "</section>";
 
-  body += sectionHeading("Additional Skills & Interests");
-  body += parseSkills(skills);
-  if (certifications) {
-    body += `<p class="ox-subheading"><strong>Certifications</strong></p>`;
-    body += parseCertifications(certifications);
+  if (certifications || languages) {
+    body += sectionHeading("Certifications & Languages");
+    if (certifications) {
+      body += parseCertifications(certifications);
+    }
+    if (languages) {
+      body += `<p><strong>Spoken languages:</strong> ${mdInline(languages.replace(/\n/g, " "))}</p>`;
+    }
+    body += "</section>";
   }
-  if (languages) {
-    body += `<p><strong>Languages:</strong> ${mdInline(languages.replace(/\n/g, " "))}</p>`;
-  }
-  body += "</section>";
 
   return body;
 }

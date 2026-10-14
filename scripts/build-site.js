@@ -24,13 +24,25 @@ function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-function wrapPage(resumeInnerHtml) {
+function parseResumeHeadline(markdown) {
+  const lines = markdown.split("\n");
+  for (let i = 1; i < lines.length; i++) {
+    const t = lines[i].trim();
+    if (!t || t === "---") continue;
+    if (t.startsWith("##")) break;
+    if (t.startsWith("[") || t.includes("@")) continue;
+    return t;
+  }
+  return "";
+}
+
+function wrapPage(resumeInnerHtml, headline) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Chin Trịnh — Senior Full Stack / React Native Developer. Resume." />
+  <meta name="description" content="Chin Trịnh — Senior React Native Engineer · Full Stack JavaScript. Resume." />
   <title>Chin Trịnh — Resume</title>
   <link rel="stylesheet" href="./css/oxford.css" />
 </head>
@@ -49,6 +61,7 @@ function wrapPage(resumeInnerHtml) {
   <main class="page" id="resume">
     <header class="resume-header">
       <h1>Chin Trịnh</h1>
+      ${headline ? `<p class="resume-headline">${headline}</p>` : ""}
       <p class="contact-line">+84 70 449 8756 · <a href="mailto:trinhchinchin@gmail.com">trinhchinchin@gmail.com</a></p>
       <p class="contact-line">Ho Chi Minh City, Vietnam · <a href="https://github.com/chnirt">github.com/chnirt</a> · <a href="https://www.linkedin.com/in/chnirt">linkedin.com/in/chnirt</a></p>
     </header>
@@ -60,12 +73,13 @@ function wrapPage(resumeInnerHtml) {
 </html>`;
 }
 
-function docxHtml(resumeInnerHtml) {
+function docxHtml(resumeInnerHtml, headline) {
   return `<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" /></head>
 <body style="font-family: Times New Roman, serif; font-size: 11pt; color: #000;">
   <h1 style="text-align:center; font-size: 18pt; text-transform: uppercase; margin-bottom: 8px;">Chin Trịnh</h1>
+  ${headline ? `<p style="text-align:center; margin: 0 0 8px; font-size: 11pt;">${headline}</p>` : ""}
   <p style="text-align:center; margin: 4px 0;">+84 70 449 8756 · trinhchinchin@gmail.com</p>
   <p style="text-align:center; margin: 4px 0 12px;">Ho Chi Minh City, Vietnam · github.com/chnirt · linkedin.com/in/chnirt</p>
   <hr style="border: none; border-top: 1px solid #000; margin-bottom: 12px;" />
@@ -83,12 +97,13 @@ async function main() {
   ensureDir(ASSETS);
 
   const markdown = fs.readFileSync(README, "utf8");
+  const headline = parseResumeHeadline(markdown);
   const resumeInner = buildOxfordResumeHtml(markdown);
 
-  fs.writeFileSync(INDEX, wrapPage(resumeInner), "utf8");
+  fs.writeFileSync(INDEX, wrapPage(resumeInner, headline), "utf8");
   console.log("Wrote docs/index.html");
 
-  const docxBuffer = await HTMLtoDOCX(docxHtml(resumeInner), null, {
+  const docxBuffer = await HTMLtoDOCX(docxHtml(resumeInner, headline), null, {
     table: { row: { cantSplit: true } },
     footer: false,
     pageNumber: false,
