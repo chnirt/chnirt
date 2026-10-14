@@ -49,7 +49,7 @@ function wrapPage(resumeInnerHtml) {
   <main class="page" id="resume">
     <header class="resume-header">
       <h1>Chin Trịnh</h1>
-      <p class="contact-line">070 449 8756 · <a href="mailto:trinhchinchin@gmail.com">trinhchinchin@gmail.com</a></p>
+      <p class="contact-line">+84 70 449 8756 · <a href="mailto:trinhchinchin@gmail.com">trinhchinchin@gmail.com</a></p>
       <p class="contact-line">Ho Chi Minh City, Vietnam · <a href="https://github.com/chnirt">github.com/chnirt</a> · <a href="https://www.linkedin.com/in/chnirt">linkedin.com/in/chnirt</a></p>
     </header>
     <article class="resume-body">
@@ -66,7 +66,7 @@ function docxHtml(resumeInnerHtml) {
 <head><meta charset="utf-8" /></head>
 <body style="font-family: Times New Roman, serif; font-size: 11pt; color: #000;">
   <h1 style="text-align:center; font-size: 18pt; text-transform: uppercase; margin-bottom: 8px;">Chin Trịnh</h1>
-  <p style="text-align:center; margin: 4px 0;">070 449 8756 · trinhchinchin@gmail.com</p>
+  <p style="text-align:center; margin: 4px 0;">+84 70 449 8756 · trinhchinchin@gmail.com</p>
   <p style="text-align:center; margin: 4px 0 12px;">Ho Chi Minh City, Vietnam · github.com/chnirt · linkedin.com/in/chnirt</p>
   <hr style="border: none; border-top: 1px solid #000; margin-bottom: 12px;" />
   ${resumeInnerHtml}

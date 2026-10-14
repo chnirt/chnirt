@@ -1,7 +1,13 @@
 # Chin Trịnh
 
 Ho Chi Minh City, Vietnam  
-[trinhchinchin@gmail.com](mailto:trinhchinchin@gmail.com) · [070 449 8756](tel:+84704498756) · [github.com/chnirt](https://github.com/chnirt) · [linkedin.com/in/chnirt](https://www.linkedin.com/in/chnirt)
+[trinhchinchin@gmail.com](mailto:trinhchinchin@gmail.com) · [+84 70 449 8756](tel:+84704498756) · [github.com/chnirt](https://github.com/chnirt) · [linkedin.com/in/chnirt](https://www.linkedin.com/in/chnirt)
+
+---
+
+## Summary
+
+Senior Full Stack JavaScript Developer with 6+ years of experience delivering production web and mobile applications. React Native since 2019, with repeated Team Lead ownership—including **Moorr**, an Australian **fintech** app at **10K+ MAU**. Comfortable with **Solidity**, **Hardhat**, and **Ethers.js** for Web3 integrations. Based in **UTC+7** (Ho Chi Minh City), open to **remote** roles with overlap with EU/US working hours. Focus on clear architecture, mentoring, and production-ready delivery.
 
 ---
 
@@ -12,45 +18,40 @@ Ho Chi Minh City, Vietnam
 
 **Moorr – Lifestyle by Design** · Senior Mobile Developer (team of 3)  
 [Website](https://www.moorr.com.au/) · [iOS](https://apps.apple.com/au/app/moorr-lifestyle-by-design/id1601360465) · [Android](https://play.google.com/store/apps/details?id=com.moorr.android)
-- Architected and delivered React Native fintech lifestyle app serving **10K+ MAU** in Australia
-- Built custom `react-native-svg-charts` with pinch/zoom and smooth animations
-- Integrated Firebase, OneSignal, and Sentry; automated releases with CircleCI and Fastlane
+- Delivered Australian **fintech** lifestyle app to **10K+ MAU**, owning mobile architecture and production releases on a team of 3
+- Reduced mobile release time by **~30%** with CircleCI and Fastlane automation for iOS and Android
+- Maintained **99%+ crash-free sessions** (Sentry) while integrating Firebase, OneSignal, and production monitoring
+- Built interactive financial charts with pinch/zoom and smooth screen transitions (Reanimated, Skia, react-native-svg-charts)
 
 **Market Plus** · Frontend Team Lead (team of 5)  
 [Website](https://www.marketbaseplus.com/) · [Chrome Extension](https://www.marketbaseplus.com/chrome-extensions/)
-- Led frontend delivery with React, Redux-Saga, Apollo Client, and Tailwind CSS
-- Developed backend features with Keystone.js v6, Cube.js analytics, and Stripe payments
-- Streamlined Vercel deployment pipeline, reducing release time by ~25%
+- Led frontend delivery for analytics and marketplace products (team of 5) with React, Redux-Saga, Apollo Client, and Tailwind CSS
+- Shipped backend features with Keystone.js v6, Cube.js analytics, and Stripe payments
+- Streamlined Vercel deployment pipeline, reducing release time by **~25%**
 
 **GHomeHR** · Frontend Team Lead (team of 5)  
 [Website](https://ghomehr.groovetechnology.com)
-- Built HR platform frontend with Next.js, Tailwind CSS, and Zustand
-- Automated CI/CD with GitHub Actions, cutting deployment effort by ~30%
+- Delivered HR platform frontend in production with Next.js, Tailwind CSS, and Zustand (team of 5)
+- Automated CI/CD with GitHub Actions, cutting deployment effort by **~30%**
 - Mentored engineers and managed production codebase handover
 
 **uWorkin** · Senior Mobile Developer (team of 2)  
 [Website](https://www.uworkin.com/) · [iOS](https://apps.apple.com/us/app/uworkin-jobs-100-000-jobs/id533648804?ls=1) · [Android](https://play.google.com/store/apps/details?id=com.uworkin.android.uworkin)
-- Maintained React Native job marketplace app supporting **100K+ listed jobs**
+- Kept React Native job marketplace stable at **100K+ listed jobs** while shipping auth improvements
 - Implemented Facebook Login and Google reCAPTCHA v3; improved authentication reliability
 
 **Xsights** · Mobile Team Lead (team of 2)  
 [Website](https://xsights.io/) · [Android](https://play.google.com/store/apps/details?id=io.xsights.android.xlm&hl=en)
-- Designed React Native architecture with Redux Toolkit and dynamic 2D map layouts
-- Automated builds and releases with Fastlane
-- Delivered production-ready codebase and transferred ownership to internal team
+- Shipped livestock management app to **production handover**, enabling the client's internal team to operate independently
+- Cut build-and-deploy time by **~40%** with Fastlane automation for iOS and Android
+- Improved map interaction performance for field use with dynamic 2D layouts and Redux Toolkit architecture
+- Delivered modular React Native codebase and transferred ownership with documented release workflows
 
 ---
 
-**Viet Money JSC** — Ho Chi Minh City  
-*React Native Developer* · Mar 2021 – Apr 2021  
-[Website](https://vietmoney.vn/) · [iOS](https://apps.apple.com/vn/app/vietmoney/id156773856) · [Android](https://play.google.com/store/apps/details?id=com.vietmoney)
-- Integrated MoMo and VNPay payments, Zalo login, and QR authentication
-- Designed rewards feature UI for a live consumer finance product
-
-**WelinC JSC** — Ho Chi Minh City  
-*React Developer (Freelance)* · Jan 2021  
-[Website](http://welinc.vn/)
-- Developed production frontend with React, Redux, and Axios for API integration
+**Earlier roles** — Ho Chi Minh City  
+*Viet Money JSC — React Native Developer (Mar 2021) · WelinC JSC — React Developer, freelance (Jan 2021)*
+- Integrated MoMo and VNPay payments, Zalo login, and QR auth at Viet Money; built production React/Redux frontend at WelinC
 
 **UrbanOS JSC** — Ho Chi Minh City  
 *React Native Developer* · Jun 2020 – Jan 2021  
@@ -79,29 +80,22 @@ GPA: 3.43 / 4.00
 
 ## Skills
 
-**Mobile:** React Native, Expo, Recoil, Valtio, react-hook-form, in-app purchase, biometrics  
+**Web3:** Solidity, Hardhat, Ethers.js  
+**Mobile:** React Native, Expo, React Native Reanimated, React Native Skia, Recoil, Valtio, react-hook-form, biometrics  
 **Frontend:** React, Next.js, Redux, Redux-Saga, Zustand, Apollo Client, Tailwind CSS, Ant Design, Chakra UI  
 **Backend:** Node.js, NestJS, Keystone.js, GraphQL, REST, Cube.js  
 **Data:** PostgreSQL, Supabase, MongoDB, Firebase, FaunaDB  
 **DevOps:** GitHub Actions, CircleCI, Fastlane, Docker, Nginx, AWS, Vercel, Cloudflare  
-**Other:** WebRTC, push notifications, Stripe, MoMo / VNPay / ZaloPay, Solidity / Hardhat / Ethers.js
+**Other:** WebRTC, push notifications, Stripe, MoMo / VNPay / ZaloPay
 
 ---
 
 ## Certifications
 
-**freeCodeCamp — Full Stack**
-- [Responsive Web Design](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/responsive-web-design)
-- [Front End Development Libraries](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/front-end-development-libraries)
-- [Data Visualization](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/data-visualization)
-- [Back End Development and APIs](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/back-end-development-and-apis)
-- [Quality Assurance](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/quality-assurance-v7)
-- [Information Security](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/information-security-v7)
-- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/javascript-algorithms-and-data-structures)
-- [Full Stack](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/full-stack)
+- [freeCodeCamp Full Stack certification](https://www.freecodecamp.org/certification/fccf5fba185-1322-4957-8c66-95667df69629/full-stack)
 
 ---
 
 ## Languages
 
-Vietnamese (Native) · English (Conversational)
+Vietnamese (Native) · English (technical reading and writing)

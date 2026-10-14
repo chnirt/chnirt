@@ -191,10 +191,8 @@ function getSection(md, name) {
   return m ? m[1].trim() : "";
 }
 
-const CAREER_OBJECTIVE =
-  "Senior Full Stack JavaScript Developer with 6+ years of experience delivering production web and mobile applications. React Native since 2019, with repeated Team Lead ownership across fintech, HR, analytics, and job-marketplace products. Focus on clear architecture, mentoring, and production-ready delivery.";
-
 function buildOxfordResumeHtml(markdown) {
+  const summary = getSection(markdown, "Summary");
   const experience = getSection(markdown, "Experience");
   const education = getSection(markdown, "Education");
   const skills = getSection(markdown, "Skills");
@@ -203,8 +201,10 @@ function buildOxfordResumeHtml(markdown) {
 
   let body = "";
 
-  body += sectionHeading("Career Objective");
-  body += `<p class="ox-paragraph">${escapeHtml(CAREER_OBJECTIVE)}</p></section>`;
+  if (summary) {
+    body += sectionHeading("Summary");
+    body += `<p class="ox-paragraph">${mdInline(summary.replace(/\n/g, " "))}</p></section>`;
+  }
 
   body += sectionHeading("Relevant Experience");
   body += parseExperienceBlock(experience);
