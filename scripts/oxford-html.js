@@ -64,7 +64,7 @@ function parseExperienceBlock(text) {
       i++;
       let role = "";
       let date = "";
-      if (i < lines.length && lines[i].startsWith("*")) {
+      if (i < lines.length && /^\*[^*]/.test(lines[i])) {
         const parsed = parseRoleDate(lines[i]);
         role = parsed.role;
         date = parsed.date;
@@ -185,10 +185,19 @@ function parseCertifications(text) {
   return html;
 }
 
+function stripSectionBody(text) {
+  return text
+    .split("\n")
+    .map((l) => l.trim())
+    .filter((l) => l && l !== "---")
+    .join("\n")
+    .trim();
+}
+
 function getSection(md, name) {
   const re = new RegExp(`## ${name}\\s*\\n([\\s\\S]*?)(?=\\n## |$)`);
   const m = md.match(re);
-  return m ? m[1].trim() : "";
+  return m ? stripSectionBody(m[1]) : "";
 }
 
 function buildOxfordResumeHtml(markdown) {
@@ -203,7 +212,8 @@ function buildOxfordResumeHtml(markdown) {
 
   if (summary) {
     body += sectionHeading("Summary");
-    body += `<p class="ox-paragraph">${mdInline(summary.replace(/\n/g, " "))}</p></section>`;
+    const summaryParagraph = summary.split("\n").map((l) => l.trim()).filter(Boolean).join(" ");
+    body += `<p class="ox-paragraph">${mdInline(summaryParagraph)}</p></section>`;
   }
 
   body += sectionHeading("Relevant Experience");

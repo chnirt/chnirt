@@ -19,8 +19,8 @@ Senior Full Stack JavaScript Developer with 6+ years of experience delivering pr
 **Moorr – Lifestyle by Design** · Senior Mobile Developer (team of 3)  
 [Website](https://www.moorr.com.au/) · [iOS](https://apps.apple.com/au/app/moorr-lifestyle-by-design/id1601360465) · [Android](https://play.google.com/store/apps/details?id=com.moorr.android)
 - Delivered Australian **fintech** lifestyle app to **10K+ MAU**, owning mobile architecture and production releases on a team of 3
-- Reduced mobile release time by **~30%** with CircleCI and Fastlane automation for iOS and Android
-- Maintained **99%+ crash-free sessions** (Sentry) while integrating Firebase, OneSignal, and production monitoring
+- Streamlined iOS and Android releases with CircleCI and Fastlane, materially reducing manual work per store submission
+- Tracked production health with Sentry, Firebase, and OneSignal through active user growth
 - Built interactive financial charts with pinch/zoom and smooth screen transitions (Reanimated, Skia, react-native-svg-charts)
 
 **Market Plus** · Frontend Team Lead (team of 5)  
@@ -43,15 +43,21 @@ Senior Full Stack JavaScript Developer with 6+ years of experience delivering pr
 **Xsights** · Mobile Team Lead (team of 2)  
 [Website](https://xsights.io/) · [Android](https://play.google.com/store/apps/details?id=io.xsights.android.xlm&hl=en)
 - Shipped livestock management app to **production handover**, enabling the client's internal team to operate independently
-- Cut build-and-deploy time by **~40%** with Fastlane automation for iOS and Android
+- Automated iOS and Android build and release flows with Fastlane, cutting repetitive manual steps on each deploy
 - Improved map interaction performance for field use with dynamic 2D layouts and Redux Toolkit architecture
 - Delivered modular React Native codebase and transferred ownership with documented release workflows
 
 ---
 
-**Earlier roles** — Ho Chi Minh City  
-*Viet Money JSC — React Native Developer (Mar 2021) · WelinC JSC — React Developer, freelance (Jan 2021)*
-- Integrated MoMo and VNPay payments, Zalo login, and QR auth at Viet Money; built production React/Redux frontend at WelinC
+**Earlier roles** — Ho Chi Minh City
+
+**Viet Money JSC** — Ho Chi Minh City  
+*React Native Developer* · Mar 2021  
+- Integrated MoMo and VNPay payments, Zalo login, and QR authentication
+
+**WelinC JSC** — Ho Chi Minh City  
+*React Developer (freelance)* · Jan 2021  
+- Built production React/Redux frontend with Axios for API integration
 
 **UrbanOS JSC** — Ho Chi Minh City  
 *React Native Developer* · Jun 2020 – Jan 2021  
