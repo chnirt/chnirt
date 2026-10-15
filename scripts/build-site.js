@@ -13,6 +13,7 @@ const DOCS = path.join(ROOT, "docs");
 const ASSETS = path.join(DOCS, "assets");
 const README = path.join(ROOT, "README.md");
 const PDF_DST = path.join(ASSETS, "Chin_Trinh_Resume.pdf");
+const ROOT_PDF = path.join(ROOT, "README.pdf");
 const DOCX_DST = path.join(ASSETS, "Chin_Trinh_Resume.docx");
 const INDEX = path.join(DOCS, "index.html");
 
@@ -31,6 +32,8 @@ function parseResumeHeadline(markdown) {
     if (!t || t === "---") continue;
     if (t.startsWith("##")) break;
     if (t.startsWith("[") || t.includes("@")) continue;
+    if (t.startsWith("**[Live resume]")) continue;
+    if (t.startsWith("*Source for")) continue;
     return t;
   }
   return "";
@@ -113,7 +116,9 @@ async function main() {
 
   try {
     await exportResumePdf(INDEX, PDF_DST);
-    console.log("Wrote docs/assets/Chin_Trinh_Resume.pdf (from web layout)");
+    fs.copyFileSync(PDF_DST, ROOT_PDF);
+    console.log("Wrote docs/assets/Chin_Trinh_Resume.pdf (Oxford layout, matches index.html)");
+    console.log("Wrote README.pdf (copy of site export)");
   } catch (err) {
     console.warn("PDF export failed:", err.message);
     console.warn("Run npm run pdf:setup then npm run site again.");

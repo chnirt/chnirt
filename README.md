@@ -5,11 +5,28 @@ Senior React Native Engineer · Full Stack JavaScript
 Ho Chi Minh City, Vietnam  
 [trinhchinchin@gmail.com](mailto:trinhchinchin@gmail.com) · [+84 70 449 8756](tel:+84704498756) · [github.com/chnirt](https://github.com/chnirt) · [linkedin.com/in/chnirt](https://www.linkedin.com/in/chnirt)
 
+**[Live resume](https://chnirt.github.io/chnirt/)** · [PDF](docs/assets/Chin_Trinh_Resume.pdf) · [Word](docs/assets/Chin_Trinh_Resume.docx)  
+*Source for the Oxford layout site. After edits, run `npm run site` to refresh `docs/` and `README.pdf`.*
+
 ---
 
 ## Summary
 
 Senior React Native and Full Stack JavaScript developer with 6+ years shipping production apps (React Native since 2019), including Team Lead ownership of Moorr, an Australian fintech lifestyle app at **10K+ MAU**. Repeated Team Lead across mobile and web, with a focus on architecture, mentoring, and production handoff. Based in Ho Chi Minh City (UTC+7), open to remote work with overlap with EU/US business hours.
+
+---
+
+## Skills
+
+**Programming languages:** TypeScript, JavaScript, Solidity  
+**Mobile:** React Native, Expo, React Native Reanimated, React Native Skia, Recoil, Valtio, React Hook Form, Firebase, OneSignal, Sentry, Face ID, Touch ID  
+**Frontend:** React, Next.js, Redux, Redux Saga, Zustand, Apollo Client, Tailwind CSS, Ant Design, Chakra UI  
+**Backend:** Node.js, NestJS, GraphQL, REST APIs, Keystone.js, Cube.js  
+**Databases:** PostgreSQL, MongoDB, Firebase, Supabase, FaunaDB  
+**DevOps & cloud:** GitHub Actions, CircleCI, Fastlane, Docker, Nginx, AWS, Vercel, Cloudflare  
+**Web3:** Hardhat, Ethers.js  
+**Payments & APIs:** Stripe, MoMo, VNPay, ZaloPay, WebRTC  
+**AI-assisted development:** Cursor for code generation, refactoring, and test writing
 
 ---
 
@@ -27,7 +44,7 @@ Senior React Native and Full Stack JavaScript developer with 6+ years shipping p
 
 **Market Plus** · Frontend Team Lead (team of 5)  
 [Website](https://www.marketbaseplus.com/) · [Chrome Extension](https://www.marketbaseplus.com/chrome-extensions/)
-- Led frontend delivery for analytics and marketplace products with React, Redux-Saga, Apollo Client, and Tailwind CSS
+- Led frontend delivery for analytics and marketplace products with React, Redux Saga, Apollo Client, and Tailwind CSS
 - Shipped backend features with Keystone.js v6, Cube.js analytics, and Stripe payments
 - Streamlined Vercel deployment pipeline, reducing release time by **~25%**
 
@@ -83,20 +100,6 @@ Senior React Native and Full Stack JavaScript developer with 6+ years shipping p
 **FPT Aptech Academy** — Ho Chi Minh City  
 *Higher Diploma in Software Engineering* · Aug 2017 – Aug 2019  
 GPA: 3.43 / 4.00
-
----
-
-## Skills
-
-**Programming languages:** TypeScript, JavaScript, Solidity  
-**Mobile:** React Native, Expo, React Native Reanimated, React Native Skia, Recoil, Valtio, React Hook Form, Firebase, OneSignal, Sentry, Face ID, Touch ID  
-**Frontend:** React, Next.js, Redux, Redux Saga, Zustand, Apollo Client, Tailwind CSS, Ant Design, Chakra UI  
-**Backend:** Node.js, NestJS, GraphQL, REST APIs, Keystone.js, Cube.js  
-**Databases:** PostgreSQL, MongoDB, Firebase, Supabase, FaunaDB  
-**DevOps & cloud:** GitHub Actions, CircleCI, Fastlane, Docker, Nginx, AWS, Vercel, Cloudflare  
-**Web3:** Hardhat, Ethers.js  
-**Payments & APIs:** Stripe, MoMo, VNPay, ZaloPay, WebRTC  
-**AI-assisted development:** Cursor for code generation, refactoring, and test writing
 
 ---
 
