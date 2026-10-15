@@ -95,7 +95,8 @@ GPA: 3.43 / 4.00
 **Databases:** PostgreSQL, MongoDB, Firebase, Supabase, FaunaDB  
 **DevOps & cloud:** GitHub Actions, CircleCI, Fastlane, Docker, Nginx, AWS, Vercel, Cloudflare  
 **Web3:** Hardhat, Ethers.js  
-**Payments & APIs:** Stripe, MoMo, VNPay, ZaloPay, WebRTC
+**Payments & APIs:** Stripe, MoMo, VNPay, ZaloPay, WebRTC  
+**AI-assisted development:** Cursor for code generation, refactoring, and test writing
 
 ---
 
