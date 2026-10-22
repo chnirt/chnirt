@@ -16,7 +16,7 @@ Dear Affinity Labs Hiring Team:
 
 I am writing to apply for the Senior React Native Engineer role. I am a Senior React Native and Full Stack JavaScript developer with 6+ years shipping production web and mobile products (React Native since 2019), often in Team Lead roles focused on architecture, mentoring, and production handoff.
 
-At Groove Technology, I architected Moorr, an Australian fintech lifestyle app at 10K+ MAU, with financial charts (Reanimated, Skia), Apollo Client, and CircleCI and Fastlane release automation. I led React Native delivery for Xsights livestock management, including dynamic map layouts, and completed production handoff to the internal team. On uWorkin, a job marketplace with 100K+ listed jobs, I implemented Facebook Login and Google reCAPTCHA v3 while keeping the app stable at scale.
+At Groove Technology, I led mobile architecture and delivery for Moorr, the Australian money and property app from the Empower Wealth ecosystem (10K+ MAU on mobile), with financial charts (Reanimated, Skia), Apollo Client, and CircleCI and Fastlane release automation. I led React Native delivery for Xsights livestock management, including dynamic map layouts, and completed production handoff to the internal team. On uWorkin, a job marketplace with 100K+ listed jobs, I implemented Facebook Login and Google reCAPTCHA v3 while keeping the app stable at scale.
 
 Outside of client work, I run a self-hosted Supabase (PostgreSQL) backend on my own VPS for an iOS app built with Firebase, which I am preparing for App Store release. It has given me hands-on practice with auth, database design, Docker deployment, and server hardening.
 
